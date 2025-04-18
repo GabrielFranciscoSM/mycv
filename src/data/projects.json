@@ -1,0 +1,47 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "Project 1",
+      "description": "A cool project description",
+      "type": "project",
+      "technologies": ["React", "TypeScript", "Node.js"],
+      "featured": true,
+      "githubUrl": "https://github.com/yourusername/project1",
+      "demoUrl": "https://demo.project1.com",
+      "image": "/path/to/project1-image.jpg",
+      "date": "2024"
+    },
+    {
+      "id": "2",
+      "name": "Project 2",
+      "description": "Another awesome project",
+      "githubUrl": "https://github.com/yourusername/project2",
+      "technologies": ["Python", "Django", "PostgreSQL"]
+    },
+    {
+      "id": "cert1",
+      "name": "React Developer Certification",
+      "type": "certificate",
+      "description": "Professional certification in React development",
+      "technologies": ["React"],
+      "issuer": "Meta",
+      "date": "2024",
+      "url": "https://example.com/cert",
+      "featured": false
+    },
+    {
+      "id": "course1",
+      "name": "Advanced React Patterns",
+      "type": "course",
+      "description": "Deep dive into advanced React patterns and practices",
+      "technologies": ["React", "TypeScript"],
+      "platform": "Frontend Masters",
+      "date": "2024",
+      "url": "https://example.com/course",
+      "featured": false
+    }
+  ],
+  "certificates": [],
+  "courses": []
+}

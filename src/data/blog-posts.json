@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "slug": "getting-started-with-react",
+      "contentPath": "/mycv/content/blog/getting-started-with-react.md",
+      "title": "Getting Started with React",
+      "excerpt": "Learn the basics of React and how to create your first component",
+      "date": "2023-05-01",
+      "tags": ["React", "JavaScript", "Web Development"],
+      "image": {
+        "url": "/blog-images/react-intro.jpg",
+        "alt": "React logo with code in background"
+      },
+      "author": {
+        "name": "Your Name",
+        "avatar": "/images/avatar.jpg"
+      },
+      "readTime": 5
+    }
+  ]
+}

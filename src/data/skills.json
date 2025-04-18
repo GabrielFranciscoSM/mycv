@@ -1,0 +1,20 @@
+{
+  "skills": [
+    {
+      "name": "React",
+      "category": "Frontend"
+    },
+    {
+      "name": "TypeScript",
+      "category": "Languages"
+    },
+    {
+      "name": "CSS",
+      "category": "Frontend"
+    },
+    {
+      "name": "Node.js",
+      "category": "Backend"
+    }
+  ]
+}

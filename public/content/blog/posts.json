@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": "getting-started-with-react",
+      "content": "\n# Getting Started with React\n\nReact is a powerful JavaScript library for building user interfaces. In this post, I'll walk you through creating your first React component.\n\n## What is React?\n\nReact is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called \"components\".\n\n## Creating Your First Component\n\nHere's a simple example of a React component:\n\n```jsx\nfunction Welcome(props) {\n  return <h1>Hello, {props.name}</h1>;\n}\n```\n\nThis component takes a `name` prop and renders a heading with a greeting.\n\n## Key Concepts\n\n1. **Components**: The building blocks of React applications\n2. **Props**: Data passed from parent to child components\n3. **State**: Internal component data that can change over time\n\n## Best Practices\n\n- Keep components small and focused\n- Use functional components when possible\n- Follow the DRY (Don't Repeat Yourself) principle\n",
+      "title": "Getting Started with React",
+      "excerpt": "Learn the basics of React and how to create your first component",
+      "date": "2023-05-01",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Web Development"
+      ],
+      "image": {
+        "url": "/blog-images/react-intro.jpg",
+        "alt": "React logo with code in background"
+      },
+      "author": {
+        "name": "Your Name",
+        "avatar": "/images/avatar.jpg"
+      },
+      "readTime": 5
+    }
+  ]
+}
