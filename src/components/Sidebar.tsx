@@ -10,7 +10,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ profile }) => {
     <aside className="sidebar">
       <div className="profile-container">
         <img 
-          src={profile.photo}
+          src={process.env.PUBLIC_URL + '/images/FotoPerfil.jpeg'}
           alt="Profile" 
           className="profile-photo"
         />

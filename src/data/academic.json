@@ -1,29 +1,25 @@
 {
   "academics": [
     {
-      "institution": "Example University",
-      "degree": "Master of Science",
-      "field": "Computer Science",
-      "startDate": "2018",
-      "endDate": "2020",
-      "location": "City, Country",
+      "institution": "University of Granada (UGR)",
+      "degree": "Doble degree on Mothematics and Computer Science",
+      "field": "Computer Science and Science",
+      "startDate": "2021",
+      "current": true,
+      "location": "Granada, Spain",
       "achievements": [
-        "Thesis: Advanced Machine Learning Applications",
-        "GPA: 3.8/4.0",
-        "Research Assistant in AI Lab"
+        "Interdisciplinary project: Nanosurfaces"
       ]
     },
     {
-      "institution": "Another University",
-      "degree": "Bachelor of Science",
-      "field": "Software Engineering",
-      "startDate": "2014",
-      "endDate": "2018",
-      "location": "City, Country",
+      "institution": "University of Salerno (UNISA)",
+      "degree": "Erasmus stance",
+      "field": "Computer Science and Science",
+      "startDate": "2023",
+      "endDate": "2024",
+      "location": "Salerno, Italia",
       "achievements": [
-        "Graduated with Honors",
-        "Led Programming Club",
-        "Dean's List all semesters"
+        "Colaboration project with Erasmus student"
       ]
     }
   ]

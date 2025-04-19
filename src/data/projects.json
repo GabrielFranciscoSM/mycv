@@ -1,23 +1,25 @@
 {
   "projects": [
     {
-      "id": "1",
-      "name": "Project 1",
-      "description": "A cool project description",
+      "id": "p1",
+      "name": "Web CV, portfolio and blog",
+      "description": "Development and deployment of web cv, portfolio and blog, using visual code copilot and claude model ",
       "type": "project",
-      "technologies": ["React", "TypeScript", "Node.js"],
+      "technologies": ["React","Vibe coding", "Prompt engineering", "Github"],
       "featured": true,
-      "githubUrl": "https://github.com/yourusername/project1",
+      "githubUrl": "https://github.com/gabrielfranciscosm/mycv",
       "demoUrl": "https://demo.project1.com",
-      "image": "/path/to/project1-image.jpg",
-      "date": "2024"
+      "date": "2025"
     },
     {
-      "id": "2",
-      "name": "Project 2",
-      "description": "Another awesome project",
-      "githubUrl": "https://github.com/yourusername/project2",
-      "technologies": ["Python", "Django", "PostgreSQL"]
+      "id": "p2",
+      "name": "Bus route connectivity analyzer",
+      "description": "Python project to identify urban areas with good public transport connectivity to a set of predefined target locations",
+      "type":"project",
+      "featured":true,
+      "technologies":["Python","OSM","GeoPandas","Folium","NetworkX"],
+      "githubUrl": "https://github.com/gabrielfranciscosm/Bus_Route_Connectivity_Analyzer",
+      "date":"2025"
     },
     {
       "id": "cert1",

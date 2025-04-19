@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 
-const CONTENT_DIR = path.join(__dirname, '../src/content/blog');
+const CONTENT_DIR = path.join(__dirname, '../public/content/blog');
 const OUTPUT_DIR = path.join(__dirname, '../public/content/blog');
 
 // Ensure output directory exists

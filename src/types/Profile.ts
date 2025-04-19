@@ -13,6 +13,7 @@ export interface Profile {
 
 export interface About {
   summary: string;
+  markdownPath?: string;
 }
 
 export interface Skill {

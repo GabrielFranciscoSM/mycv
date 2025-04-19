@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "building-with-ai",
+      "content": "\n# Building My Portfolio with AI Assistance\n\nIn this post, I'll share my experience building this portfolio website using AI tools like GitHub Copilot. I'll discuss how AI can enhance the development process while still maintaining creative control.\n\n## Why Use AI for Development?\n\nAI coding assistants can help speed up development by:\n- Suggesting boilerplate code and common patterns\n- Helping with component structure and styling\n- Offering real-time code completions\n- Explaining complex concepts and debugging issues\n\n## The Development Process\n\nI started by creating a basic React project structure and then used GitHub Copilot to help me develop key features:\n\n```jsx\n// Copilot suggested this responsive grid layout\nconst BlogGrid = styled.div`\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));\n  gap: 2rem;\n  padding: 2rem;\n`\n```\n\n## Key Learnings\n\n1. **AI as a Collaborator**: Think of AI as a pair programmer that suggests solutions but lets you make the final decisions\n2. **Verify and Validate**: Always review AI-generated code for best practices and security\n3. **Learn from AI**: Pay attention to patterns and techniques suggested by AI to improve your skills\n\n## Best Practices When Working with AI\n\n- Start with clear requirements and design goals\n- Break down complex features into smaller tasks\n- Review and understand all AI-generated code\n- Maintain consistent code style and documentation\n- Use AI suggestions as a starting point, not the final solution\n\n## Results and Benefits\n\nUsing AI tools helped me:\n- Develop features faster\n- Learn new React patterns and practices\n- Focus on creative aspects rather than boilerplate\n- Maintain high code quality with built-in best practices\n\nRemember, AI is a powerful tool that enhances rather than replaces human creativity and expertise in software development.\n",
+      "title": "Building My Portfolio with AI Assistance",
+      "excerpt": "How I leveraged AI tools to create a modern React portfolio website",
+      "date": "2024-01-15",
+      "tags": [
+        "AI",
+        "React",
+        "Web Development",
+        "GitHub Copilot"
+      ],
+      "image": {
+        "url": "/blog-images/ai-coding.jpg",
+        "alt": "AI assisted coding illustration"
+      },
+      "author": {
+        "name": "Your Name",
+        "avatar": "/images/avatar.jpg"
+      },
+      "readTime": 7
+    },
+    {
       "id": "getting-started-with-react",
       "content": "\n# Getting Started with React\n\nReact is a powerful JavaScript library for building user interfaces. In this post, I'll walk you through creating your first React component.\n\n## What is React?\n\nReact is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called \"components\".\n\n## Creating Your First Component\n\nHere's a simple example of a React component:\n\n```jsx\nfunction Welcome(props) {\n  return <h1>Hello, {props.name}</h1>;\n}\n```\n\nThis component takes a `name` prop and renders a heading with a greeting.\n\n## Key Concepts\n\n1. **Components**: The building blocks of React applications\n2. **Props**: Data passed from parent to child components\n3. **State**: Internal component data that can change over time\n\n## Best Practices\n\n- Keep components small and focused\n- Use functional components when possible\n- Follow the DRY (Don't Repeat Yourself) principle\n",
       "title": "Getting Started with React",

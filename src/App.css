@@ -568,6 +568,24 @@ section h2 {
   overflow-x: auto;
 }
 
+.about {
+  line-height: 1.6;
+}
+
+.about h1 {
+  display: none; /* Hide the title since we already have one in the section */
+}
+
+.about p {
+  margin-bottom: 1.5rem;
+}
+
+.about em {
+  color: #4F46E5;
+  font-style: normal;
+  font-weight: 500;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .App {

@@ -1,12 +1,12 @@
 {
-  "name": "Your Name",
-  "title": "Software Engineer",
-  "photo": "/path/to/your/photo.jpg",
-  "degree": "Your Degree",
-  "email": "your.email@example.com",
-  "location": "Your Location",
+  "name": "Gabriel Sánchez Muñoz",
+  "title": "Computer Science and Mathematics Student",
+  "photo": "/content/FotoPerfil.jpeg",
+  "degree": "Computer Science and Mathematics",
+  "email": "gabrielfranciscosm@gmail.com",
+  "location": "Granada, Spain",
   "social": {
-    "github": "https://github.com/yourusername",
+    "github": "https://github.com/GabrielFranciscoSM",
     "linkedin": "https://linkedin.com/in/yourusername"
   }
 }
