@@ -1,20 +1,40 @@
 {
   "skills": [
     {
-      "name": "React",
-      "category": "Frontend"
-    },
-    {
-      "name": "TypeScript",
+      "name": "Python",
       "category": "Languages"
     },
     {
-      "name": "CSS",
-      "category": "Frontend"
+      "name": "c++",
+      "category": "Languages"
     },
     {
-      "name": "Node.js",
+      "name": "Java",
+      "category": "Languages"
+    },
+    {
+      "name": "SQL",
+      "category": "Languages"
+    },
+    {
+      "name": "Langgraph",
+      "category": "Ai agents"
+    },
+    {
+      "name": "Ollama",
+      "category": "LLM"
+    },
+    {
+      "name": "Flask",
       "category": "Backend"
+    },
+    {
+      "name": "Docker",
+      "category": "Conteinarization"
+    },
+    {
+      "name": "Postgresql",
+      "category": "DataBases"
     }
   ]
 }

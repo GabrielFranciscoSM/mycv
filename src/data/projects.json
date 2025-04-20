@@ -22,24 +22,75 @@
       "date":"2025"
     },
     {
-      "id": "cert1",
-      "name": "React Developer Certification",
-      "type": "certificate",
-      "description": "Professional certification in React development",
-      "technologies": ["React"],
-      "issuer": "Meta",
-      "date": "2024",
-      "url": "https://example.com/cert",
-      "featured": false
+      "id": "p3",
+      "name": "Metaheuristics",
+      "description": "Implementation of several known metaheuristics: Genetic and memetic algorithms, ...",
+      "type":"project",
+      "technologies":["c++","latex"],
+      "githubUrl": "https://github.com/gabrielfranciscosm/metaheuristics1",
+      "date":"2025"
+    },
+    {
+      "id": "p4",
+      "name": "Parks in cities",
+      "description": "Genetic algorithm implementation for planning best spot for new parks in cities",
+      "type":"project",
+      "technologies":["c++","netbeans"],
+      "githubUrl": "https://github.com/gabrielfranciscosm/ParksInCitys_Genetic",
+      "date":"2024"
     },
     {
       "id": "course1",
-      "name": "Advanced React Patterns",
+      "name": "Huggingface fundamentals of Agents",
       "type": "course",
-      "description": "Deep dive into advanced React patterns and practices",
-      "technologies": ["React", "TypeScript"],
-      "platform": "Frontend Masters",
-      "date": "2024",
+      "description": "Instroduction of AI agents and some frameworks",
+      "technologies": ["Langgraph","smollagent","LlamaIndex","AI agents"],
+      "platform": "Huggingface",
+      "date": "2025",
+      "url": "https://example.com/course",
+      "featured": true
+    },
+    {
+      "id": "course2",
+      "name": "Data science methodology",
+      "type": "course",
+      "description": "Tools and workflows for Data Science",
+      "technologies": [""],
+      "platform": "Coursera (IBM)",
+      "date": "2025",
+      "url": "https://example.com/course",
+      "featured": false
+    },
+    {
+      "id": "course3",
+      "name": "Python Project for Data Science",
+      "type": "course",
+      "description": "Development of a Python project for DAta Science",
+      "technologies": ["pandas","numpy","Python","SQL"],
+      "platform": "Coursera (IBM)",
+      "date": "2025",
+      "url": "https://example.com/course",
+      "featured": false
+    },
+    {
+      "id": "course3",
+      "name": "INspect Rich Documents with Gemini Multimodality and Multimodal RAG",
+      "type": "course",
+      "description": "Use of Gemini for multimodal RAG from pdf files (images and text)",
+      "technologies": ["Gemini","RAG"],
+      "platform": "Google",
+      "date": "2025",
+      "url": "https://example.com/course",
+      "featured": false
+    },
+    {
+      "id": "course3",
+      "name": "Promp Desing in Vertex AI Skill",
+      "type": "course",
+      "description": "Introduction to prompt engineering in Vertex AI",
+      "technologies": ["Vertex AI","Prompt engineering"],
+      "platform": "Google",
+      "date": "2025",
       "url": "https://example.com/course",
       "featured": false
     }

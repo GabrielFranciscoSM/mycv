@@ -14,50 +14,35 @@ readTime: 7
 
 # Building My Portfolio with AI Assistance
 
-In this post, I'll share my experience building this portfolio website using AI tools like GitHub Copilot. I'll discuss how AI can enhance the development process while still maintaining creative control.
+Vibe coding is redefining how people code. Imagine a super smart code assistant that guide you in your coding journey. 
+With a few simple instructions in natural languages, it can create whatever you want, no need to study for years or 
+working hard to learn by doing, everything working with no errors out of the box... If this sounds a bit strange and 
+unrealistic, is because it is unrealistic. 
 
-## Why Use AI for Development?
+Am I starting the post of how I designed this web portfolio vibe coding, criticizing vibe coding? Yes, I am.
 
-AI coding assistants can help speed up development by:
-- Suggesting boilerplate code and common patterns
-- Helping with component structure and styling
-- Offering real-time code completions
-- Explaining complex concepts and debugging issues
+## Vibe coding or the new copy-pasting?
 
-## The Development Process
+This isn't new. Everyone has searched for an easy solution on stackoverflow and copied the first comment. But nothing 
+is that easy in real life. 
 
-I started by creating a basic React project structure and then used GitHub Copilot to help me develop key features:
+Using the stack overflow simil, maybe an AI can solve a puntual problem, but it can't build a hole system. And if used 
+without knowledge, it can generate new errors.
 
-```jsx
-// Copilot suggested this responsive grid layout
-const BlogGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
-`
-```
+## The good part of vibe-coding
 
-## Key Learnings
+However, not everything is bad. This web page was created using copilot, without any knowledge of react. Is it well coded? no.
+Is it secure? no. But it is a little project that doesn't need it, a fast prototype for a futture true project.
 
-1. **AI as a Collaborator**: Think of AI as a pair programmer that suggests solutions but lets you make the final decisions
-2. **Verify and Validate**: Always review AI-generated code for best practices and security
-3. **Learn from AI**: Pay attention to patterns and techniques suggested by AI to improve your skills
+This was done trying several AI options, investigating how they work, and learning specific tools like prompt engineering. 
+And also having knowledge about deployment in github pages, basic frontend and general coding.
 
-## Best Practices When Working with AI
+## Final words
 
-- Start with clear requirements and design goals
-- Break down complex features into smaller tasks
-- Review and understand all AI-generated code
-- Maintain consistent code style and documentation
-- Use AI suggestions as a starting point, not the final solution
+Is it vibe-coding the devil? No, it's not. But I don't think is a magic wand that translates your desires into code.
+Vibe-coding is a tool, and a very good one. But, as every tool, it needs a learning process. 
 
-## Results and Benefits
+As everything arrownd AI, it will power up good developers, but will do no good to mediocre ones.
 
-Using AI tools helped me:
-- Develop features faster
-- Learn new React patterns and practices
-- Focus on creative aspects rather than boilerplate
-- Maintain high code quality with built-in best practices
+Lets continue learning.
 
-Remember, AI is a powerful tool that enhances rather than replaces human creativity and expertise in software development.
