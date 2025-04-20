@@ -1,25 +1,26 @@
 {
   "posts": [
     {
-      "id": "getting-started-with-react",
-      "content": "\n# Getting Started with React\n\nReact is a powerful JavaScript library for building user interfaces. In this post, I'll walk you through creating your first React component.\n\n## What is React?\n\nReact is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called \"components\".\n\n## Creating Your First Component\n\nHere's a simple example of a React component:\n\n```jsx\nfunction Welcome(props) {\n  return <h1>Hello, {props.name}</h1>;\n}\n```\n\nThis component takes a `name` prop and renders a heading with a greeting.\n\n## Key Concepts\n\n1. **Components**: The building blocks of React applications\n2. **Props**: Data passed from parent to child components\n3. **State**: Internal component data that can change over time\n\n## Best Practices\n\n- Keep components small and focused\n- Use functional components when possible\n- Follow the DRY (Don't Repeat Yourself) principle\n",
-      "title": "Getting Started with React",
-      "excerpt": "Learn the basics of React and how to create your first component",
-      "date": "2023-05-01",
+      "id": "building-with-ai",
+      "content": "\n# Building My Portfolio with AI Assistance\n\nVibe coding is redefining how people code. Imagine a super smart code assistant that guide you in your coding journey. \nWith a few simple instructions in natural languages, it can create whatever you want, no need to study for years or \nworking hard to learn by doing, everything working with no errors out of the box... If this sounds a bit strange and \nunrealistic, is because it is unrealistic. \n\nAm I starting the post of how I designed this web portfolio vibe coding, criticizing vibe coding? Yes, I am.\n\n## Vibe coding or the new copy-pasting?\n\nThis isn't new. Everyone has searched for an easy solution on stackoverflow and copied the first comment. But nothing \nis that easy in real life. \n\nUsing the stack overflow simil, maybe an AI can solve a puntual problem, but it can't build a hole system. And if used \nwithout knowledge, it can generate new errors.\n\n## The good part of vibe-coding\n\nHowever, not everything is bad. This web page was created using copilot, without any knowledge of react. Is it well coded? no.\nIs it secure? no. But it is a little project that doesn't need it, a fast prototype for a futture true project.\n\nThis was done trying several AI options, investigating how they work, and learning specific tools like prompt engineering. \nAnd also having knowledge about deployment in github pages, basic frontend and general coding.\n\n## Final words\n\nIs it vibe-coding the devil? No, it's not. But I don't think is a magic wand that translates your desires into code.\nVibe-coding is a tool, and a very good one. But, as every tool, it needs a learning process. \n\nAs everything arrownd AI, it will power up good developers, but will do no good to mediocre ones.\n\nLets continue learning.\n\n",
+      "title": "Building My Portfolio with AI Assistance",
+      "excerpt": "How I leveraged AI tools to create a modern React portfolio website",
+      "date": "2024-01-15",
       "tags": [
+        "AI",
         "React",
-        "JavaScript",
-        "Web Development"
+        "Web Development",
+        "GitHub Copilot"
       ],
       "image": {
-        "url": "/blog-images/react-intro.jpg",
-        "alt": "React logo with code in background"
+        "url": "/blog-images/ai-coding.jpg",
+        "alt": "AI assisted coding illustration"
       },
       "author": {
         "name": "Your Name",
         "avatar": "/images/avatar.jpg"
       },
-      "readTime": 5
+      "readTime": 7
     }
   ]
 }
