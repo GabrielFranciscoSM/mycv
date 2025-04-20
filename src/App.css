@@ -1,13 +1,19 @@
-.App {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-family: Arial, sans-serif;
+body {
+  margin: 0;
+  padding: 0;
   background: linear-gradient(135deg, #EEF2FF 0%, #F3F4F6 100%);
+  background-attachment: fixed;
   min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  margin: 0 auto;
+  padding: 6rem 2rem 2rem;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  max-width: 1400px;
+  gap: 2rem;
 }
 
 .App-logo {
@@ -56,6 +62,8 @@ section {
   border-radius: 16px;
   padding: 2rem;
   backdrop-filter: blur(8px);
+  max-width: 100%;
+  overflow: hidden;
 }
 
 h2 {
@@ -108,9 +116,27 @@ h2 {
 }
 
 .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  display: flex;
   gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: #4F46E5 transparent;
+  width: 100%;
+  max-width: calc(100% - 2rem);
+}
+
+.skills-grid::-webkit-scrollbar {
+  height: 6px;
+}
+
+.skills-grid::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.skills-grid::-webkit-scrollbar-thumb {
+  background-color: #4F46E5;
+  border-radius: 6px;
 }
 
 .skill-item {
@@ -121,6 +147,8 @@ h2 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(79, 70, 229, 0.1);
   transition: all 0.2s ease;
+  min-width: 150px;
+  flex-shrink: 0;
 }
 
 .skill-item:hover {
@@ -132,8 +160,9 @@ h2 {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
+  width: 100%;
 }
 
 .project-card {
@@ -143,6 +172,8 @@ h2 {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
   border: 1px solid rgba(79, 70, 229, 0.1);
+  min-width: 300px;
+  flex-shrink: 0;
 }
 
 .project-card:hover {
@@ -205,8 +236,13 @@ h2 {
   padding: 2.5rem;
   border-radius: 16px;
   position: sticky;
-  top: 2rem;
-  height: fit-content;
+  top: 6rem;
+  left: 0;
+  width: 280px;
+  height: calc(100vh - 8rem);
+  flex-shrink: 0;
+  overflow-y: auto;
+  margin-left: 2rem;
   box-shadow: 0 4px 20px rgba(79, 70, 229, 0.08);
   border: 1px solid rgba(79, 70, 229, 0.1);
 }
@@ -268,7 +304,11 @@ h2 {
 }
 
 .main-content {
-  padding: 1rem;
+  flex: 1;
+  padding: 0 2rem;
+  max-width: calc(100% - 320px);
+  margin-right: 2rem;
+  overflow-x: hidden;
 }
 
 .projects-page {
@@ -276,14 +316,20 @@ h2 {
 }
 
 .main-nav {
-  margin-bottom: 2rem;
-  padding: 1rem 0;
-  border-bottom: 1px solid #eee;
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 255, 0.9) 100%);
-  border-radius: 12px;
-  padding: 0.75rem 1rem;
-  box-shadow: 0 2px 4px rgba(79, 70, 229, 0.06);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  margin-bottom: 0;
+  padding: 1rem 4%;
+  border-bottom: 1px solid rgba(79, 70, 229, 0.1);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 255, 0.95) 100%);
   backdrop-filter: blur(8px);
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* Changed from flex-start to center */
 }
 
 .main-nav a {
@@ -365,9 +411,33 @@ section h2 {
 }
 
 .featured-projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  display: flex;
   gap: 2rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: #4F46E5 transparent;
+  width: 100%;
+}
+
+.featured-projects-grid::-webkit-scrollbar {
+  height: 6px;
+}
+
+.featured-projects-grid::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.featured-projects-grid::-webkit-scrollbar-thumb {
+  background-color: #4F46E5;
+  border-radius: 6px;
+}
+
+.featured-projects-grid .project-card {
+  min-width: 300px;
+  flex: 0 0 300px;
+  padding: 1.5rem;
+  font-size: 0.9rem;
 }
 
 .filters {
@@ -587,11 +657,24 @@ section h2 {
 }
 
 /* Responsive Design */
+@media (max-width: 1600px) {
+  .sidebar {
+    left: 4%;
+  }
+}
+
 @media (max-width: 1024px) {
   .App {
-    grid-template-columns: 250px 1fr;
-    padding: 1.5rem;
-    gap: 1.5rem;
+    padding: 6rem 1rem 2rem;
+  }
+
+  .sidebar {
+    margin-left: 1rem;
+  }
+
+  .main-content {
+    padding: 0 1rem;
+    margin-right: 1rem;
   }
 
   .project-grid,
@@ -606,14 +689,26 @@ section h2 {
 
 @media (max-width: 768px) {
   .App {
-    grid-template-columns: 1fr;
-    padding: 1rem;
+    flex-direction: column;
+    padding-top: 5rem; /* Adjusted for smaller screens */
+  }
+
+  .main-nav {
+    padding: 0.75rem 2%;
   }
 
   .sidebar {
     position: relative;
     top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
     margin-bottom: 2rem;
+  }
+
+  .main-content {
+    margin-left: 0;
+    max-width: 100%;
   }
 
   .filters {
