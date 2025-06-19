@@ -40,6 +40,15 @@
       "date":"2024"
     },
     {
+      "id": "p5",
+      "name": "RumorFlow",
+      "description": "Development of an innovative metaheuristic for ral variable optimization",
+      "type":"project",
+      "technologies":["c++","metaheuristic", "genetic algorithms", "optimization"],
+      "githubUrl": "https://github.com/GabrielFranciscoSM/RumorFlow",
+      "date":"2025"
+    },
+    {
       "id": "course1",
       "name": "Huggingface fundamentals of Agents",
       "type": "course",
