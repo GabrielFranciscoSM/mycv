@@ -5,7 +5,7 @@
       "content": "\n# Building My Portfolio with AI Assistance\n\nVibe coding is redefining how people code. Imagine a super smart code assistant that guide you in your coding journey. \nWith a few simple instructions in natural languages, it can create whatever you want, no need to study for years or \nworking hard to learn by doing, everything working with no errors out of the box... If this sounds a bit strange and \nunrealistic, is because it is unrealistic. \n\nAm I starting the post of how I designed this web portfolio vibe coding, criticizing vibe coding? Yes, I am.\n\n## Vibe coding or the new copy-pasting?\n\nThis isn't new. Everyone has searched for an easy solution on stackoverflow and copied the first comment. But nothing \nis that easy in real life. \n\nUsing the stack overflow simil, maybe an AI can solve a puntual problem, but it can't build a hole system. And if used \nwithout knowledge, it can generate new errors.\n\n## The good part of vibe-coding\n\nHowever, not everything is bad. This web page was created using copilot, without any knowledge of react. Is it well coded? no.\nIs it secure? no. But it is a little project that doesn't need it, a fast prototype for a futture true project.\n\nThis was done trying several AI options, investigating how they work, and learning specific tools like prompt engineering. \nAnd also having knowledge about deployment in github pages, basic frontend and general coding.\n\n## Final words\n\nIs it vibe-coding the devil? No, it's not. But I don't think is a magic wand that translates your desires into code.\nVibe-coding is a tool, and a very good one. But, as every tool, it needs a learning process. \n\nAs everything arrownd AI, it will power up good developers, but will do no good to mediocre ones.\n\nLets continue learning.\n\n",
       "title": "Building My Portfolio with AI Assistance",
       "excerpt": "How I leveraged AI tools to create a modern React portfolio website",
-      "date": "2025-04-20",
+      "date": "2024-01-15",
       "tags": [
         "AI",
         "React",
@@ -17,27 +17,7 @@
         "alt": "AI assisted coding illustration"
       },
       "author": {
-        "name": "Gabriel",
-        "avatar": "/images/avatar.jpg"
-      },
-      "readTime": 7
-    },
-    {
-      "id": "life-and-work",
-      "content": "\n# The meaining of work\n\nWork is a fundamental part of our lives. It is how we earn a living, and basically how we survive nowadays. \nAnd, even more important, it can be a source of personal fulfillment and satisfaction. While work is allways \nwork, it can be a source of joy and happiness if we find the right job.\n\nHowever, this is not the point of the reflexion. The point is that work is not everything, and morover, \nwork is a means to an end.\nWe work to live, not live to work.\n\n## What is work?\n\nIs it work the thing we do to earn money? Or is it the thing we do to be happy? \nI think it is a little bit of both, if we are lucky. Work should be pleasant, but \nit is allways work: A source of money; A place where you have to produce, by definition.\n\n## The pressure \n\nAs a computer science student, my work is studying, programming and passing exams. But as a \nfuture computer science professional, I also need to stay up to date with the latest technologies,\nand be able to adapt to the fast pace of the industry. \n\nThis is life, and not a specially hard one, I now. But while I study my exams, code my next project\nand explore this or that technology, I ask to myself:\nIs this what I want? To spend the rest of my days like this?\n\n## The balance\n\nFor me, work is essential, but life is more important. \n\nThe meainig of work is to respond to your dedication and your effort, \nreturning happiness and satisfaction. Or, at least, leting you live your life.",
-      "title": "Life and work",
-      "excerpt": "Reflections on the intersection of life and work",
-      "date": "2025-04-25",
-      "tags": [
-        "reflexion",
-        "React"
-      ],
-      "image": {
-        "url": "/blog-images/ai-coding.jpg",
-        "alt": "AI assisted coding illustration"
-      },
-      "author": {
-        "name": "Gabriel",
+        "name": "Your Name",
         "avatar": "/images/avatar.jpg"
       },
       "readTime": 7

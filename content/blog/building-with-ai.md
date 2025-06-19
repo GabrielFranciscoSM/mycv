@@ -1,13 +1,13 @@
 ---
 title: "Building My Portfolio with AI Assistance"
 excerpt: "How I leveraged AI tools to create a modern React portfolio website"
-date: "2025-04-20"
+date: "2024-01-15"
 tags: ["AI", "React", "Web Development", "GitHub Copilot"]
 image:
   url: "/blog-images/ai-coding.jpg"
   alt: "AI assisted coding illustration"
 author:
-  name: "Gabriel"
+  name: "Your Name"
   avatar: "/images/avatar.jpg"
 readTime: 7
 ---
