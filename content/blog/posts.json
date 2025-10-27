@@ -21,6 +21,71 @@
         "avatar": "/images/avatar.jpg"
       },
       "readTime": 7
+    },
+    {
+      "id": "designing-with-empathy",
+      "content": "\n# Designing with Empathy: Building for Real People\n\nDesign systems, component libraries, and flashy animations are nice. But they don't replace a simple habit: asking who you're building for. For small portfolios and prototypes, empathy is the secret ingredient that makes things useful instead of just pretty.\n\nI used to treat UI as a checklist: inputs, labels, responsive grid. That approach produces functional pages, but it misses a layer — the context of the person clicking the button. Who is that user? What problem are they solving right now? Answering those questions early changes decisions dramatically.\n\n## Tiny habits that help\n\n- Watch someone use your page for 60 seconds. You don't need a lab — just a friend or family member.\n- Write the minimum micro-copy that reduces doubt: clarify button actions, explain results briefly.\n- Favor predictable behavior over cleverness. Surprises are fun for engineers; they're confusing for users.\n\nThese feel obvious, but they're easy to skip when you're excited about a new animation or a technical trick. For the leaf pathogen detection project I worked on, one small change — showing a clear \"Upload one photo\" hint — reduced user confusion more than a week of refactors.\n\n## Empathy isn't soft, it's practical\n\nPeople sometimes treat empathy as a soft skill that doesn't matter in technical projects. I disagree. Empathy is a pragmatic design tool: it reduces support questions, shortens onboarding, and lets features shine because they solve real problems.\n\nA few closing thoughts: don't over-engineer the solution to appear smart. Ship something that helps someone. Iterate with real feedback. You'll write less code overall and make a better product.\n\nLet's keep designing with people in mind.\n",
+      "title": "Designing with Empathy: Building for Real People",
+      "excerpt": "Why empathy matters in small projects and how it changed the way I design interfaces.",
+      "date": "2025-10-27",
+      "tags": [
+        "Design",
+        "UX",
+        "Soft Skills",
+        "Frontend"
+      ],
+      "image": {
+        "url": "/blog-images/empathy-design.jpg",
+        "alt": "Sketches of user interactions"
+      },
+      "author": {
+        "name": "Gabriel",
+        "avatar": "/images/avatar.jpg"
+      },
+      "readTime": 5
+    },
+    {
+      "id": "soft-skills-collab",
+      "content": "\n# Soft Skills That Ship Features\n\nTalking about soft skills feels vague in a technical portfolio. But over time I noticed a pattern: projects with better conversations finish faster. Meeting notes, quick demos, and small decisions saved days of rework.\n\n## Concrete habits that help teams\n\n- Short demos every few days. They expose assumptions early and reduce scope creep.\n- Commit messages that explain \"why\". Future you (and your teammates) will thank you.\n- Ask clarifying questions instead of assuming requirements are fixed.\n\nThese aren't glamorous, but they remove friction. In one project, a ten-minute sync avoided a week-long integration headache because we agreed on one data format early.\n\n## Communication as engineering\n\nGood communication is a form of engineering: it reduces uncertainty, aligns expectations, and makes trade-offs explicit. It's also low-cost to practice — add a line to a PR explaining the intent, or record a 60-second walkthrough of a tricky bug.\n\nSoft skills don't replace hard skills. They multiply them. If you can write a clean component and explain its limits clearly, that component will actually get used.\n\nIf you're building your portfolio or collaborating on a small team, invest a little time in the conversations. The code will follow.\n",
+      "title": "Soft Skills That Ship Features",
+      "excerpt": "A short reflection on collaboration, communication, and how non-technical skills actually speed up engineering.",
+      "date": "2025-10-27",
+      "tags": [
+        "Careers",
+        "Soft Skills",
+        "Collaboration"
+      ],
+      "image": {
+        "url": "/blog-images/collaboration.jpg",
+        "alt": "People discussing over a laptop"
+      },
+      "author": {
+        "name": "Gabriel",
+        "avatar": "/images/avatar.jpg"
+      },
+      "readTime": 4
+    },
+    {
+      "id": "teaching-and-cedu-chatbot",
+      "content": "\n# Teaching and Building a Cedu Chatbot\n\nTeaching for a year changed how I think about learning and product design. I worked one-on-one with a student for twelve months — planning sessions, breaking down concepts, and adapting explanations to fit their pace. That experience was humbling and clarifying: learning isn't a single path, it's a conversation.\n\nDuring that time I began developing a small educational chatbot (I call it the \"Cedu Chatbot\") to help the student practice problems and review concepts between sessions. The chatbot is intentionally simple: short prompts, guided hints, and quick checks to keep confidence high and frustration low.\n\n## What tutoring taught me\n\n- Explain the goal first. Students ask \"why\" more than you expect; naming the objective keeps them engaged.\n- Small wins matter. Short, solvable exercises build momentum.\n- Feedback beats correctness. Showing why an answer is wrong — kindly — creates learning, not shame.\n\n## Why a chatbot?\n\nA chatbot extends the learning loop. It provides practice on demand, offers hints when someone is stuck, and keeps explanations consistent between sessions. It's not a replacement for human tutoring — it's a complement that scales attention when the tutor isn't available.\n\nFrom a technical perspective, designing the Cedu Chatbot forced me to think about micro-interactions, prompt design, and how to surface uncertainty (when the bot should ask for clarification or suggest a human check). These are the same problems that matter in product design: trust, clarity, and graceful failure.\n\n## Next steps\n\nI plan to keep iterating on the bot: better hint strategies, clearer error messages, and small analytics to track progress (not to judge, but to inform the next lesson). Teaching for a year and building the bot made me appreciate the blend of empathy and engineering — both are necessary to make tools that actually help people learn.\n\nLet's keep building tools that teach, not just test.\n",
+      "title": "Teaching and Building a Cedu Chatbot",
+      "excerpt": "Reflections on tutoring for a year and creating a supportive educational chatbot",
+      "date": "2025-10-27",
+      "tags": [
+        "Education",
+        "AI",
+        "Chatbot",
+        "Teaching"
+      ],
+      "image": {
+        "url": "/blog-images/teaching.jpg",
+        "alt": "Student studying with a laptop"
+      },
+      "author": {
+        "name": "Gabriel",
+        "avatar": "/images/avatar.jpg"
+      },
+      "readTime": 6
     }
   ]
 }
